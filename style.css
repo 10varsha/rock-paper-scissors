@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
+
+*{
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to bottom, #ff8800, #fda548, #fbbe7a, #f7d6ad, #f3ece3);
+}
+
+.container{
+    max-width: 100%;
+    height: 90vh;
+    /* margin: 100px 350px ; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.box{
+    width: 50%;
+    height: 80vh;
+    background-color: #ffffff49;
+    padding: 40px;
+    border-radius: 16px;
+    margin: 0 100px;
+}
+
+.container #reset{
+    padding: 5px 30px;
+    margin: 10px;
+    border: none;
+    background-color: white;
+    color: #ff8800;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    height: 40px;
+    box-shadow: 0 0 10px #fda648b5;
+    position: relative;
+    
+    
+}
+
+.container #reset:hover{
+    background-color: #ffb056;
+    color: white;
+}
+
+.container #reset:active{
+    background-color: #ff8800;
+    color: white;
+}
+
+.button{
+    padding: 20px 30px;
+    margin: 10px;
+    border: none;
+    background-color: #264bc1;
+    color: white;
+    font-size: 40px;
+    border-radius: 8px;
+    line-height: 40px;
+    cursor: pointer;
+    box-shadow: 0 0 10px #062428a5;
+}
+
+.button:hover{
+    background-color: #002292;
+}
+
+.button:active{
+    background-color: #f3ece3;
+    color: #264bc1;
+    box-shadow: none;
+}
+
+.box2{
+    display: flex;
+    justify-content: space-between;
+    margin:0;
+    padding: 0;
+    color: #dd435c;
+}
+
+.box2 h2, h1, .box3 h2, .box3 span, .box2 span{
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.box3{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    color: #fdd51f;
+    font-size: 40px;
+    -webkit-text-stroke: 4px black;
+}
+
+.box3 h2, .box3 span{
+    padding: 0;
+}
+
+
+.box2 span{
+    font-size: 40px;
+    text-transform: uppercase;
+    -webkit-text-stroke: 2px white;
+}
+
+#user-score{
+    color: rgb(47, 210, 22);
+}
+
+#computer-score{
+    color: rgb(0, 43, 200);
+}
